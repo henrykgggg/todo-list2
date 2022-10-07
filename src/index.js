@@ -2,7 +2,7 @@ import {
   mylists, addmylist, editmylist, deletemylist,
 } from '../modules/methods.js';
 
-import { changeTodo ,removeTodos } from '../modules/clear.js';
+import { changeTodo, removeTodos } from '../modules/clear.js';
 
 const listGroup = document.getElementById('todo-lists');
 const newTask = document.querySelector('.todo-add').querySelector('input');
