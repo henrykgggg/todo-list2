@@ -1,5 +1,5 @@
 import {
-    mylists, addmylist,editmylist, deletemylist
+  mylists, addmylist, editmylist, deletemylist,
 } from '../modules/methods.js';
 
 const listGroup = document.getElementById('todo-lists');
