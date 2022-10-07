@@ -1,4 +1,4 @@
-
+import { mylists, updateTodo, Mylist} from "./methods";
 const changeTodo = ({ index, status }) => {
     Mylist[index - 1].completed = status;
     localStorage.setItem('mylist', JSON.stringify(Mylist));
@@ -13,4 +13,4 @@ const changeTodo = ({ index, status }) => {
     localStorage.setItem('mylist', JSON.stringify(newTodos));
     updateTodo(newTodos);
   };
-  
+  export { changeTodo ,removeTodos}
