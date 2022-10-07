@@ -1,4 +1,4 @@
-import { mylists, updateTodo, Mylist} from "./methods";
+import { mylists, updateTodo, Mylist} from "./methods.js";
 const changeTodo = ({ index, status }) => {
     Mylist[index - 1].completed = status;
     localStorage.setItem('mylist', JSON.stringify(Mylist));

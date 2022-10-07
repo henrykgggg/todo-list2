@@ -23,5 +23,7 @@ listGroup.addEventListener('keypress', (event) => {
   const li = event.target.parentElement;
   if (pressedItem === 'edit-todo') editmylist({ index: li.id, event });
 });
+const clearCompletedButton = document.querySelector('.todo-delete');
+clearCompletedButton.addEventListener('click', removeTodos);
 
 window.addEventListener('load', () => { mylists(); });
