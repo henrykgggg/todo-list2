@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #a9a9a9;
+}
+
+.todos-container {
+  min-height: 60vh;
+  margin: 10vh 0;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  padding-bottom: 50px;
+  width: 50%;
+}
+
+.todo {
+  height: 50px;
+  width: calc(100% - 40px);
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px #ddd solid;
+}
+
+.header {
+  font-weight: 600;
+  opacity: 0.9;
+  color: #545862;
+}
+
+.header i {
+  font-size: 17px;
+  opacity: 0.5;
+  color: #333;
+}
+
+.todo-add input {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.todo-delete {
+  margin-bottom: 0%;
+  height: 50px;
+  bottom: 0;
+  outline: none;
+  border: none;
+  background-color: #f1f2f5;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.todo-delete :hover {
+  background-color: #808080;
+  transition: 0.7s;
+}
+
+.todo-delete span {
+  opacity: 0.5;
+  color: #333;
+}
+
+.todo-item input {
+  width: calc(100% - 30px);
+  padding: 0 15px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 100;
+  text-align: start;
+  z-index: 1;
+}
+
+.todo-list {
+  height: 50px;
+  width: calc(100% - 40px);
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px #ddd solid;
+  background-color: #808080;
+}

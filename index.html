@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="todos-container">
+        <div class="todo todo-intro">
+            <h4 class="header">Today's To Do</h4><i class="fa-solid fa-rotate"></i>
+        </div>
+        <div class="todo todo-add">
+            <input type="text" placeholder=" Add to your list">
+            <i class="fa-solid fa-arrow-left-long"></i>
+        </div>
+        <ul id="todo-lists"></ul>
+        <button type="button" class="todo-delete"><span>clear all completed</span></button>
+    </section>
+<script src="./src/index.js" type="module"></script>
+</body>
+</html>
